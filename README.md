@@ -291,7 +291,7 @@ console.log(leeftijd); // Output: 25
 // Uitleg over document.addEventListener("DOMContentLoaded", function() {})
 
 // De DOMContentLoaded-gebeurtenis
-// document.addEventListener("DOMContentLoaded", function() {})
+    document.addEventListener("DOMContentLoaded", function() {})
 // Deze methode wordt gebruikt om een functie uit te voeren zodra het DOM volledig is geladen en klaar is om te worden gemanipuleerd.
 // Het wordt vaak gebruikt om ervoor te zorgen dat JavaScript-code correct wordt uitgevoerd op het juiste moment.
 
@@ -307,13 +307,12 @@ document.addEventListener("DOMContentLoaded", function () {
 // ____________________________________________________________________________
 
 // Uitleg over document.getElementById
-var uitleg = `
-// document.getElementById
+var uitleg = `document.getElementById
 // Deze methode wordt gebruikt om een DOM-element te selecteren op basis van het ID-attribuut.
 // Het retourneert het geselecteerde element als een object.
 
 // Voorbeeldgebruik:
-// HTML: <div id="mijnElement">Dit is mijn element</div>
+//HTML: <div id="mijnElement">Dit is mijn element</div>
 var element = document.getElementById('mijnElement');
 console.log(element); // Output: <div id="mijnElement">Dit is mijn element</div>
 `;
